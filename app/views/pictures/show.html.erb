@@ -3,7 +3,7 @@
 <p>
   <% unless @picture.image.url == nil %>
   <strong>Image:</strong>
-  <%= image_tag @picture.image.url %>
+  <%= image_tag @picture.image.url, size: '100x100' %>
   <% end %>
 </p>
 
